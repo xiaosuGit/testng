@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6087" started-at="2018-07-15T02:18:59Z" finished-at="2018-07-15T02:19:05Z">
+    <groups>
+      <group name="g2">
+        <method signature="TestClass2.f2()[pri:0, instance:com.xiaosu.testng.TestClass2@651fd0]" name="f2" class="com.xiaosu.testng.TestClass2"/>
+      </group> <!-- g2 -->
+    </groups>
+    <test name="Test1" duration-ms="6087" started-at="2018-07-15T02:18:59Z" finished-at="2018-07-15T02:19:05Z">
+      <class name="com.xiaosu.testng.TestClass3">
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.xiaosu.testng.TestClass3@120ebad]" name="f2" duration-ms="3007" depends-on-groups="g2" started-at="2018-07-15T10:19:02Z" finished-at="2018-07-15T10:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.xiaosu.testng.TestClass3@120ebad]" name="f1" duration-ms="3003" depends-on-groups="g2" started-at="2018-07-15T10:19:02Z" finished-at="2018-07-15T10:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- com.xiaosu.testng.TestClass3 -->
+      <class name="com.xiaosu.testng.TestClass1">
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.xiaosu.testng.TestClass1@1629756]" name="f1" duration-ms="3002" depends-on-groups="g2" started-at="2018-07-15T10:19:02Z" finished-at="2018-07-15T10:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.xiaosu.testng.TestClass1@1629756]" name="f2" duration-ms="3002" depends-on-groups="g2" started-at="2018-07-15T10:19:02Z" finished-at="2018-07-15T10:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- com.xiaosu.testng.TestClass1 -->
+      <class name="com.xiaosu.testng.TestClass2">
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.xiaosu.testng.TestClass2@651fd0]" name="f2" duration-ms="3014" started-at="2018-07-15T10:18:59Z" finished-at="2018-07-15T10:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- com.xiaosu.testng.TestClass2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

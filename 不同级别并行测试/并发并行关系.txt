@@ -1,0 +1,17 @@
+并行：
+不同级别的并行：suite -> test -> class -> method
+test，class，method级别的并发，可以通过在testng.xml中的suite tag下设置：
+<suite name="Testng Parallel Test" parallel="tests" thread-count="5">
+<suite name="Testng Parallel Test" parallel="classes" thread-count="5">
+<suite name="Testng Parallel Test" parallel="methods" thread-count="5">
+tests级别：不同test tag下的用例可以在不同的线程执行，相同test tag下的用例只能在同一个线程中执行。
+classs级别：不同class tag下的用例可以在不同的线程执行，相同class tag下的用例只能在同一个线程中执行。
+methods级别：所有用例都可以在不同的线程去执行。
+
+运行结果：
+9线程开始执行TestClass1的测试方法f2
+10线程开始执行TestClass3的测试方法f2
+9线程开始执行TestClass2的测试方法f1
+10线程开始执行TestClass4的测试方法f1
+9线程开始执行TestClass2的测试方法f2
+10线程开始执行TestClass4的测试方法f2
