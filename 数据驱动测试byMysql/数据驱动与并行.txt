@@ -1,0 +1,17 @@
+在使用TestNG做自动化测试时，基本上大家都会使用dataprovider来管理一个用例的不同测试数据。
+而上述在testng.xml中修改suite标签的方法，并不适用于dataprovider多组测试数据之间的并发。
+执行时会发现，一个dp中的多组数据依然是顺序执行
+解决方式是：在 @DataProvider中添加parallel=true。
+默认情况下，dp并行执行的线程池容量为10，如果要更改并发的数量，也可以在suite tag下指定参数data-provider-thread-count：
+<suite name="Testng Parallel Test" parallel="methods" thread-count="5" data-provider-thread-count="20" 
+
+TestNG作为一个成熟的、业界广泛使用的测试框架，自然有其存在的合理性。这边再分享一些简单有用的标签，
+具体的使用姿势大家可以自己去探索，官网有比较全的介绍，毕竟自己探索的才会印象深刻。
+
+groups/dependsOnGroups/dependsOnMethods ——设置用例间依赖
+dataProviderClass ——将dataprovider单独放到一个专用的类中，实现测试代码、dataprovider、测试数据分层。
+timeout ——设置用例的超时时间（并发／非并发都可支持）
+alwaysRun ——某些依赖的用例失败了，导致用例被跳过。对于一些为了保持环境干净而“扫尾”的测试类，如果我们想强制执行可以使用此标签。
+priority ——设置优先级，让某些测试用例被更大概率优先执行。
+singleThreaded ——强制一个class类里的用例在一个线程执行，忽视method级别并发
+preserve-order ——指定是否按照testng.xml中的既定用例顺序执行用例

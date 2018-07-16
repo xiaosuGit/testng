@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13850" started-at="2018-07-15T06:23:13Z" finished-at="2018-07-15T06:23:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13850" started-at="2018-07-15T06:23:13Z" finished-at="2018-07-15T06:23:27Z">
+      <class name="com.xiaosu.testng.TestClass1">
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3039" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sinopec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15214521458]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[452154125442252221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3067" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peihuo1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13691523689]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421121198309072356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3040" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[supplier]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8989]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3056" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gonghuo11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88995554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[445321198009155626]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3030" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peihuo1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45998519881009651X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3036" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13924925552]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[441421197905075532]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3053" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peihuo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[132012122333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[445621199302065215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3027" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gonghuo1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13596582314]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421121201509101234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3027" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arrange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15214521458]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[452154125442252221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xiaosu.testng.TestClass1@93b025]" name="f1" duration-ms="3031" started-at="2018-07-15T14:23:24Z" data-provider="datafromMysql" finished-at="2018-07-15T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangweitian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13415720655]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[450631198909097735]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- com.xiaosu.testng.TestClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
